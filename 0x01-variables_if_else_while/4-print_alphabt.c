@@ -10,6 +10,7 @@
 int main(void)
 {
 	char y = 'a';
+	
 	while (y <= 'z')
 	{
 		if (y == 'e' || y == 'q')
@@ -17,6 +18,7 @@ int main(void)
 		putchar(y);
 		++y;
 	}
-	putchar('\n');	
+	putchar('\n');
+
 	return (0);
 }
