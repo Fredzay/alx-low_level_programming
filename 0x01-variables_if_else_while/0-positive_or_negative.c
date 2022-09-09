@@ -1,16 +1,15 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
- * main - Entry point 
+ * main - Entry point
  *
- * Description value of n status, zero, positive or negative
+ * Description: print value of n satus; zero, positive or negative
  *
- * Return (0) Success
+ * Return: Always 0 (Success)
 */
 
-
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -20,13 +19,9 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 		printf("%i is positive\n", n);
-	else if (n = 0)
-	
+	else if (n == 0)
 		printf("%i is zero\n", n);
-	
-	else 
+	else
 		printf("%i is negative\n", n);
-	
 	return (0);
 }
-
