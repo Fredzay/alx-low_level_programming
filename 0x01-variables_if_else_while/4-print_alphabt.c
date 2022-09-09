@@ -10,6 +10,7 @@
 int main(void)
 {
 	char y = 'a';
+	
 	while (y <= 'z')
 	{
 		if (y == 'e' || y == 'q')
