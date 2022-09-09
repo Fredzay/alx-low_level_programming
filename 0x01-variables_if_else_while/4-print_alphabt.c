@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 /**
  * main - Entry point
  *
@@ -14,7 +13,7 @@ int main(void)
 	while (y <= 'z')
 	{
 		if (y == 'e' || y == 'q')
-			++y;
+		++y;
 		putchar(y);
 		++y;
 	}
